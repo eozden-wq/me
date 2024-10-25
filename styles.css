@@ -1,0 +1,55 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.intro {
+    text-align:center;
+}
+
+.intro h1 {
+    font-size: 4.0em;
+}
+
+.intro h2 {
+    font-weight: 300;    
+    font-size: 2.0em;
+}
+
+.intro p {
+    font-size: 1.8em
+}
+
+.list {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list h1 {
+    font-size:2.3em;
+    padding-right: 10px;
+}
+
+.list li p {
+    font-size: 1.5em;
+}
+
+.list h1 a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+
+.list img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
